@@ -10,13 +10,16 @@ class App
     {
         $url = $this->parseURL();
 
-        // controller
-        if (file_exists('../phpmvc/app/controllers/' . $url[0] . '.php')) {
-            $this->controller = $url[0];
-            unset($url[0]);
+        //controller
+        if (isset($url[0])) {
+            if (file_exists('../App/Controller/' . $url[0] . '.php')) {
+                $this->controller = $url[0];
+                unset($url[0]);
+
+            }
         }
 
-        require_once '../app/controllers/' . $this->controller . '.php';
+        require_once '../App/Controller/' . $this->controller . '.php';
         $this->controller = new $this->controller;
 
         // method
@@ -27,14 +30,14 @@ class App
             }
         }
 
-        // params
+        //parameter
         if (!empty($url)) {
             $this->params = array_values($url);
+
         }
 
-        // jalankan controller & method, serta kirimkan params jika ada
+        //jalankan controller dan method serta kirimkan parameter(params) jika ada
         call_user_func_array([$this->controller, $this->method], $this->params);
-
     }
 
     public function parseURL()
