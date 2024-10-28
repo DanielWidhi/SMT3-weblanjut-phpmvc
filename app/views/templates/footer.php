@@ -79,16 +79,16 @@
                 More Information?
               </h6>
               <p>
-                <a href="https://maps.app.goo.gl/iBQ5WqH5JwkhMtZp7" target="_blank" class="text-reset">Adresss</a>
+                <a href="https://maps.app.goo.gl/iBQ5WqH5JwkhMtZp7" target="_blank" class="text-reset"><i class="bi bi-geo-alt"></i> Adresss</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Settings</a>
+                <a href="<?=IG;?>" target="_blank" class="text-reset"><i class="bi bi-instagram"></i> Instagram</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Orders</a>
+                <a href="https://github.com/DanielWidhi" target="_blank" class="text-reset"><i class="bi bi-github"></i> Github</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Help</a>
+                <a href="<?=GMAIL;?>" class="text-reset"></a><i class="bi bi-envelope-open"></i> Dm for business 📩</a>
               </p>
             </div>
             <!-- Grid column -->

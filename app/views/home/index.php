@@ -1,7 +1,7 @@
 
 
-<div class="container">
-    <div class="jumbotron mt-5">
+<div class="container mt-5">
+    <!-- <div class="jumbotron mt-5">
         <h1 class="display-4">Hello, <?=$data['nama'];?></h1>
     <p class="lead">Hallo, Nama Saya <?=$data['nama'];?>, Saya seorang <?=$data['pekerjaan'];?></p>
     <hr class="my-4">
@@ -9,7 +9,7 @@
         <p class="lead">
         <a class="btn btn-primary btn-lg" href="<?=IG;?>" target="_blank" role="button"><i class="bi bi-instagram"></i> Kepoin Yuk</a>
         </p>
-    </div>
+    </div> -->
 
 
     <!-- Carousel Full -->
