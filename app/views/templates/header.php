@@ -14,17 +14,17 @@
     <div class="container">
         <!-- <div class="container-fluid"> -->
             <a class="navbar-brand" href="<?=BASEURL;?>"><img src="<?=BASEURL;?>/image/GDPK.png" class="img-fluid" style="max-width: 40px; height: auto;"></img></a>
-            <a class="navbar-brand" href="https://www.instagram.com/danielwidhi_198" target="_blank">GDPARTSTUDIO</a>
+            <a class="navbar-brand" href="<?=IG;?>" target="_blank">GDPARTSTUDIO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="<?=BASEURL;?>"><i class="bi bi-house"> </i>Home</a>
-                <a class="nav-link" href="<?=BASEURL;?>/about">About</a>
-                <a class="nav-link" href="<?=BASEURL;?>/Mahasiswa">Mahasiswa</a>
+                <a class="nav-link active" aria-current="page" href="<?=BASEURL;?>"><i class="bi bi-house"> </i> Home</a>
+                <a class="nav-link" href="<?=BASEURL;?>/about"><i class="bi bi-info"></i> About</a>
+                <a class="nav-link" href="<?=BASEURL;?>/Mahasiswa"><i class="bi bi-people"></i> Mahasiswa</a>
                 <a class="nav-link" href="<?=BASEURL;?>/GalleryController">Gallery</a>
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link disabled" aria-disabled="true">UP COMING SOON</a>
             </div>
             </div>
         <!-- </div> -->

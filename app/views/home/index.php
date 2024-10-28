@@ -7,7 +7,7 @@
     <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <p class="lead">
-        <a class="btn btn-primary btn-lg" href="<?=IG;?>" target="_blank" role="button">Learn more</a>
+        <a class="btn btn-primary btn-lg" href="<?=IG;?>" target="_blank" role="button"><i class="bi bi-instagram"></i> Kepoin Yuk</a>
         </p>
     </div>
 
@@ -77,8 +77,8 @@
         <div class="carousel-item active">
             <img src="<?=BASEURL;?>/image/1.jpg" class="d-block w-100" alt="Slide 1">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Slide 1</h5>
-                <p>Description for slide 1.</p>
+                <h5>The Wedding Of Mekel & Tria</h5>
+                <p></p>
             </div>
         </div>
 
@@ -86,8 +86,8 @@
         <div class="carousel-item">
             <img src="<?=BASEURL;?>/image/2.jpg" class="d-block w-100" alt="Slide 2">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Slide 2</h5>
-                <p>Description for slide 2.</p>
+                <h5>Potret Vol. 12</h5>
+                <p>Random Photos From Event UKM Photonity PNB</p>
             </div>
         </div>
 

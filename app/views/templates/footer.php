@@ -46,8 +46,7 @@
                 <i class="fas fa-gem me-3"></i>GDPARTSTUDIO
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit.
+              Studio kami adalah tempat yang berfokus pada layanan kreatif, khususnya dalam bidang video editing, videografi, dan fotografi. Dengan peralatan canggih dan tim berpengalaman, kami menciptakan hasil yang memukau dan berkualitas tinggi. Baik untuk kebutuhan dokumentasi acara, produksi konten media sosial, ataupun proyek komersial, kami berkomitmen menghadirkan visual yang mencerminkan visi dan keunikan klien.
               </p>
             </div>
             <!-- Grid column -->
@@ -77,10 +76,10 @@
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
               <!-- Links -->
               <h6 class="text-uppercase fw-bold mb-4">
-                Useful links
+                More Information?
               </h6>
               <p>
-                <a href="#!" class="text-reset">Pricing</a>
+                <a href="https://maps.app.goo.gl/iBQ5WqH5JwkhMtZp7" target="_blank" class="text-reset">Adresss</a>
               </p>
               <p>
                 <a href="#!" class="text-reset">Settings</a>
@@ -95,28 +94,28 @@
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"> -->
               <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-              <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+              <!-- <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i>Nusa Penida, Klungkung, Bali</p>
               <p>
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gededaniel14@gmail.com&su=Judul%20Email&body=Isi%20email%20di%20sini" class="fas fa-envelope me-3 text-reset" target="_blank" ></a>
                 gededaniel14@gmail.com
               </p>
-              <p><i class="fas fa-phone me-3"></i> + 62 813 391 725 56</p>
+              <p><i class="fas fa-phone me-3"></i> + 62 813 391 725 56</p> -->
               <!-- <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p> -->
-            </div>
+            <!-- </div> -->
             <!-- Grid column -->
-          </div>
+          <!-- </div> -->
           <!-- Grid row -->
-        </div>
+        <!-- </div> -->
       </section>
       <!-- Section: Links  -->
 
       <!-- Copyright -->
       <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/" target="_blank" >MDBootstrap.com</a>
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="<?=IG;?>" target="_blank" > Daniel Widhi</a>
       </div>
       <!-- Copyright -->
     </footer>

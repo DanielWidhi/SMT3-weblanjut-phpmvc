@@ -7,8 +7,9 @@
         <p class="lead mb-4">Saya adalah seorang <?=$data['pekerjaan']?> Mempunyai bakat tidur dan makan</p>
         <p class="lead mb-4">Saya tinggal di <?=$data['rumah']?></p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a href="<?=WA;?>" class="btn btn-primary btn-lg px-4 gap-3" target="_blank">Hubungi</a>
-            <a href="<?=IG;?>"  class="btn btn-outline-secondary btn-lg px-4" target="_balnk" >Follow</a>
+            <a href="<?=WA;?>" class="btn btn-primary btn-lg px-4 gap-3" target="_blank"><i class="bi bi-whatsapp"></i> Contact Me</a>
+            <a href="<?=IG;?>"  class="btn btn-outline-secondary btn-lg px-4" target="_balnk" ><i class="bi bi-instagram"></i> Instagram</a>
+            <a href="<?=GMAIL;?>" class="btn btn-primary btn-lg px-4 gap-3" target="_blank"><i class="bi bi-envelope-open"></i> Gmail.com</a>
         </div>
     </div>
 </div>
