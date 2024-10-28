@@ -138,7 +138,7 @@
 
 <div class="mt-5 position-relative m-4 d-flex gap-3 justify-content-center">
     <div class="card" style="width: 18rem;">
-        <img src="<?=BASEURL;?>/image/2.jpg" class="card-img-top" alt="...">
+        <video src="<?=BASEURL;?>/image/8.mp4" class="card-img-top" autoplay muted loop></video>
         <div class="card-body">
             <h5 class="card-title">Naren Jatuh Cinta</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -146,7 +146,7 @@
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="<?=BASEURL;?>/image/2.jpg" class="card-img-top" alt="...">
+        <video src="<?=BASEURL;?>/image/7.mp4" class="card-img-top" autoplay muted loop></video>
         <div class="card-body">
             <h5 class="card-title">Naren Jatuh Cinta</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -154,7 +154,7 @@
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="<?=BASEURL;?>/image/2.jpg" class="card-img-top" alt="...">
+        <video src="<?=BASEURL;?>/image/6.mp4" class="card-img-top" autoplay muted loop></video>
         <div class="card-body">
             <h5 class="card-title">Naren Jatuh Cinta</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -162,7 +162,7 @@
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="<?=BASEURL;?>/image/2.jpg" class="card-img-top" alt="...">
+        <video src="<?=BASEURL;?>/image/5.mp4" class="card-img-top" autoplay muted loop></video>
         <div class="card-body">
             <h5 class="card-title">Naren Jatuh Cinta</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
