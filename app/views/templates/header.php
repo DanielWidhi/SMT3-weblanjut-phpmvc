@@ -22,13 +22,10 @@
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="<?=BASEURL;?>"><i class="bi bi-house"> </i> Home</a>
                 <a class="nav-link" href="<?=BASEURL;?>/about"><i class="bi bi-info"></i> About</a>
-<<<<<<< HEAD
                 <a class="nav-link" href="<?=BASEURL;?>/galeri"><i class="bi bi-people"></i>Galeri</a>
                 <a class="nav-link" href="<?=BASEURL;?>/pengalaman"><i class="bi bi-people"></i>Pengalaman</a>
-=======
-                <a class="nav-link" href="<?=BASEURL;?>/Mahasiswa"><i class="bi bi-people"></i> Pengalaman</a>
+                <!-- <a class="nav-link" href="<?=BASEURL;?>/Mahasiswa"><i class="bi bi-people"></i> Pengalaman</a> -->
                 <a class="nav-link" href="<?=BASEURL;?>/Galeri">Gallery</a>
->>>>>>> c5f386600c7595feb5522fac8f1b2fd421a1aa34
                 <a class="nav-link disabled" aria-disabled="true">UP COMING SOON</a>
             </div>
             </div>
