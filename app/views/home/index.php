@@ -171,7 +171,7 @@
     </div>
 </div>
 
-    <div class="mt-5 position-relative m-4 d-flex gap-3 justify-content-center">
+    <!-- <div class="mt-5 position-relative m-4 d-flex gap-3 justify-content-center">
         <div class="col-lg-4">
             <img src="<?=BASEURL;?>/image/Daniel.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="<?=BASEURL;?>/image/Daniel.jpg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="<?=BASEURL;?>/image/Daniel.jpg"></rect></img>
             <h2 class="fw-normal"><?=$data['nama'];?></h2>
@@ -192,4 +192,4 @@
         </div>
         </div>
     </div>
-</div>
+</div> -->

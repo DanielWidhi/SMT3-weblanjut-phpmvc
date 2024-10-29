@@ -1,13 +1,13 @@
 <?php
 
-class Mahasiswa extends Controller
+class Pengalaman extends Controller
 {
     public function index()
     {
         $data['judul'] = 'Daftar Mahasiswa';
-        $data['mhs'] = $this->model('Mahasiswa_model')->getAllMahasiswa();
+        $data['exp'] = $this->model('Pengalaman_model')->getAllexp();
         $this->view('templates/header', $data);
-        $this->view('mahasiswa/index', $data);
+        $this->view('pengalaman/index', $data);
         $this->view('templates/footer');
     }
 

@@ -1,5 +1,5 @@
 <?php
-class Galeri_model {
+class Pengalaman_model {
    private $dbh; //database handler
    private $stmt;
 
@@ -14,8 +14,8 @@ public function __construct () {
     }
 }
 
-    public function getAllgaleri () {
-        $this->stmt = $this->dbh->prepare('SELECT * FROM foto');
+    public function getAllexp () {
+        $this->stmt = $this->dbh->prepare('SELECT * FROM experience');
         $this->stmt->execute();
         return $this->stmt->fetchAll(PDO::FETCH_ASSOC);
     }
