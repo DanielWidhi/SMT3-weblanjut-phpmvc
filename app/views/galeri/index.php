@@ -54,13 +54,28 @@
         max-height: 80vh;
         object-fit: contain;
     }
+
+    .logo-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .logo-img {
+        height: 70px; /* Increased from 50px to match text height better */
+        width: auto;
+    }
 </style>
 
 <?php $no = 1;?>
 
 <div class="container mt-5">
     <div class="gallery-title text-center mb-5">
-        <h2 class="display-4 fw-bold">GPART GALLERY</h2>
+        <div class="logo-title">
+            <img src="<?=BASEURL;?>/image/GDPB.png" alt="GPART Logo" class="logo-img">
+            <h2 class="display-4 fw-bold">GALLERY</h2>
+        </div>
         <p class="lead">Discover Our Creative Collection</p>
     </div>
 
