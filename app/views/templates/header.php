@@ -14,12 +14,12 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
         <div class="container-fluid">
-            <a class="navbar-brand" href="<?=BASEURL;?>"><img src="<?=BASEURL;?>/image/Logo1b.png" class="img-fluid" style="max-width: 40px; height: auto;"></img></a>
-            <a class="navbar-brand" href="<?=IG;?>" target="_blank">GDPARTSTUDIO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <a class="navbar-brand" href="<?=BASEURL;?>"><img src="<?=BASEURL;?>/image/Logo1b.png" class="img-fluid" style="max-width: 40px; height: auto;"></img></a>
+                <a class="navbar-brand" href="<?=IG;?>" target="_blank">GDPARTSTUDIO</a>
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="<?=BASEURL;?>"><i class="bi bi-house"> </i> Home</a>
                     <a class="nav-link" href="<?=BASEURL;?>/about"><i class="bi bi-info"></i> About</a>
